@@ -1,0 +1,61 @@
+/*-------------------- fonts -----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,500;1,400&family=Poppins:wght@500&display=swap');
+
+/* common styles or utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* navigation styles */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.logo-title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.items {
+    display: flex;
+    /* align-items: center; */
+    list-style: none;
+}
+
+.item {
+    margin-right: 34px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*--------------------------------------------------------
+ banner styles 
+ ---------------------------------------------------------*/
+.banner {
+    display: flex;
+    align-items: center;
+    width: 1100px;
+    margin: 100px auto;
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.banner-details {
+    margin-right: 133px;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    border: 0;
+    border-radius: 41px;
+}
