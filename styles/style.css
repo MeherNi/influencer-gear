@@ -16,6 +16,8 @@ main {
 
 /* navigation styles */
 nav.nav-container {
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,14 +25,12 @@ nav.nav-container {
 }
 
 .logo-title {
-    width: 1400px;
     font-weight: 700;
     font-size: 24px;
 }
 
 .items {
     display: flex;
-    /* align-items: center; */
     list-style: none;
 }
 
@@ -101,8 +101,7 @@ nav.nav-container {
   collection styles 
   --------------------------------------------------------------*/
 .popular-collection {
-    width: 980px;
-    height: 1700px;
+    width: 1030px;
     margin: 100px auto;
 }
 
@@ -166,7 +165,7 @@ nav.nav-container {
     feature styles 
 -----------------------------------------------------------------*/
 .feature {
-    width: 980px;
+    width: 1030px;
     margin: 100px auto;
     display: flex;
 }
@@ -177,7 +176,6 @@ nav.nav-container {
 
 .feature-details .feature-title {
     color: #0A0826;
-    width: 610px;
     margin-bottom: 0;
     font-weight: 700;
     font-size: 38px;
